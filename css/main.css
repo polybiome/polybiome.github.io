@@ -87,7 +87,7 @@
 .mainText h1 {
   font-size: 2.5em;
   color: white;
-  font-family: Netto Offc;
+  font-family: Netto Offc, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* line 77, main.sass */
 .mainText h1 span {
@@ -109,7 +109,7 @@
 /* line 89, main.sass */
 #sec1 .textSec h2, #sec2 .textSec h2 {
   font-size: 1.8em;
-  font-family: Netto Offc;
+  font-family: Netto Offc, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #0078AA;
 }
@@ -235,7 +235,7 @@ img.food.is-showing {
   .main {
     background-size: 400px auto, 100% 100%;
     background-position: bottom -80px left -35px, center center;
-    min-height: 50vh;
+    min-height: 75vh;
   }
 
   /* line 180, main.sass */
@@ -270,7 +270,7 @@ img.food.is-showing {
     padding-top: 30%;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   /* line 201, main.sass */
   .navbar-default {
     margin-right: 70px;
