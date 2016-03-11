@@ -216,7 +216,7 @@ img.food.is-showing {
   }
   /* line 164, main.sass */
   .navbar-default .navbar-nav > li > a:hover {
-    box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.2);
     color: white;
   }
   /* line 167, main.sass */
@@ -231,7 +231,7 @@ img.food.is-showing {
   .navbar-default .navbar-nav > .active > a {
     background-image: none;
     background-color: rgba(255, 255, 255, 0);
-    box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.2);
     color: white;
   }
   /* line 176, main.sass */
@@ -377,7 +377,7 @@ img.food.is-showing {
   .main {
     background-size: 700px auto, 100% 100%;
     background-position: bottom -100px left -35px, center center;
-    min-height: 80vh;
+    min-height: 650px;
   }
 
   /* line 274, main.sass */
