@@ -80,8 +80,7 @@
 	p
 		color: white
 		font-size: 1em
-		
-#sec1,#sec2
+#sec1,#sec2,#sec3,#sec4,#secTeam
 	.textSec
 		margin-top: 5%
 		margin-left: 5%
@@ -98,6 +97,8 @@
 			text-align: center
 			line-height: 200%
 			color: #7f7f7f
+		a
+			color: #F7AC1E
 
 	.imgSec
 		margin-left: 10%
@@ -117,6 +118,22 @@
 		#mol2
 			transform: translate(90px, 0px)
 			transition: transform 1s ease-in-out
+		#veins
+			margin-top: -80px
+		#shield
+			margin-top: -80px
+		#logoIgem
+			float: left
+			max-width: 50%
+			height: auto
+			transform: translate(-50px, 0px)
+			transition: transform 0.5s ease-in
+		#logoDracBlue
+			float: right
+			max-width: 50%
+			height: auto
+			transform: translate(50px, 0px)
+			transition: transform 0.5s ease-in
 	.noOverflow
 		overflow: hidden
 	#omsMeat
@@ -137,6 +154,75 @@ img.food
 	&.is-showing
 		opacity: 1
 		transform: translateX(0px)
+#secTeam
+	#faces
+		margin-left: 5%
+		margin-right: 5%
+		.face
+			margin-bottom: 20px
+			//margin-left: 10px
+			margin-right: 10px
+			padding: 0px
+			overflow: hidden
+			img
+				min-height: 100%
+				max-width: 100%
+				opacity: 0.9
+				transform: scale(1.15)
+				-webkit-transform: scale(1.15)
+				transition: opacity 0.35s, transform 0.35s, filter 0.2s //ease-in-out
+				filter: grayscale(100%)
+				-webkit-filter: grayscale(100%)
+				&:hover
+					opacity: 0.8
+					transform: scale(1)
+					-webkit-transform: scale(1)
+					filter: grayscale(0%)
+					-webkit-filter: grayscale(0%)
+			figcaption
+				position: absolute
+				top: 80%
+				right: -100%
+				background: black
+				color: white
+				padding: 2px 8px
+				font-size: 6px
+				transition: all 0.3s ease-in-out
+				pointer-events: none
+				.box
+					background-color: #F7AC1E
+					width: 6px
+					height: 12px
+					float: left
+					padding: 0px
+					margin: -5px 0px 0px -10px
+			&:hover
+				figcaption
+					right: 0%
+
+.footer
+	background: #eb01a5,linear-gradient(left,#0078AA, #009EAA) 
+	background-image: url('../img/backIcoR.png') /* fallback */
+	background-image: url('../img/backIcoR.png'), linear-gradient(left,#0078AA, #009EAA) /* W3C */
+	background-image: url('../img/backIcoR.png'),-moz-linear-gradient(left, #0078AA, #009EAA) // FF 3.6+
+	background-image: url('../img/backIcoR.png'), -webkit-gradient(linear, 100% 0%, 0% 0%, color-stop(100%,#0078AA), color-stop(0%,#009EAA)) // Safari 4+, Chrome 2+
+	background-image: url('../img/backIcoR.png'), -webkit-gradient(left, #0078AA, #009EAA) // Safari 5.1+, Chrome 10+
+	background-image: url('../img/backIcoR.png'), -o-linear-gradient(left, #0078AA, #009EAA) // Opera 11.10
+	background:
+		size: 250px auto, 100% 100%
+		position: bottom -35px right -35px, center center
+		repeat: no-repeat
+	min-height: 50px
+	.textFooter
+		position: relative
+		p
+			color: white
+			font-size: 1em
+			margin-left: 5%
+			margin-right: 5%
+			padding-top: 25px
+			text-align: center
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -209,9 +295,9 @@ img.food
 		p
 			font-size: 1.3em
 		h1
-			font-size: 3em
+			font-size: 2em
 			padding-top: 20px
-	#sec1,#sec2
+	#sec1,#sec2,#sec3,#sec4,#secTeam
 		.textSec
 			h2
 				margin-left: 10%
@@ -228,12 +314,29 @@ img.food
 		padding-top: 30%
 	.spacedBottom
 		padding-bottom: 10%
+	#secTeam
+		#faces
+			.face
+				figcaption
+					font-size: 11px
+					.box
+						width: 10px
+						height: 16px
+						margin: -7px 0px 0px -12px
+	.footer
+		min-height: 200px
+		.textFooter
+			position: relative
+			p
+				font-size: 2em
+				padding-top: 50px
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media all and (orientation:portrait) and (min-width: 768px)
 	.main
-		min-height: 50vh	
+		min-height: 50vh
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -255,9 +358,9 @@ img.food
 				padding-left: 50px
 
 	.mainText
-		margin-top: 10%
-		margin-right: 20%
-		margin-left: 20%
+		margin-top: 12%
+		margin-right: 25%
+		margin-left: 25%
 		p
 			font-size: 2em
 		h1
@@ -266,9 +369,9 @@ img.food
 	.main
 		background-size: 700px auto, 100% 100%
 		background-position: bottom -100px left -35px, center center
-		min-height: 650px
+		min-height: 85vh
 
-	#sec1,#sec2
+	#sec1,#sec2,#sec3,#sec4,#secTeam
 		.textSec
 
 			h2
@@ -291,15 +394,24 @@ img.food
 		padding-top: 15%
 	.spacedBottom
 		padding-bottom: 5%
+	#secTeam
+		#faces
+			margin-left: 0%
+			margin-right: 0%
+	// .footer
+	// 	min-height: 200px
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @media all and (orientation: landscape) and (min-width: 768px)
-	#sec1,#sec2
+	#sec1,#sec2,#sec3,#sec4,#secTeam
 		.textSec
 			p
 				margin-left: 20%
 				margin-right: 20%	
+	#secTeam
+		#faces
+			margin-right: 5%
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

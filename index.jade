@@ -48,9 +48,10 @@ html.no-js(lang='')
                   | Home 
                   span.sr-only (current)
               li
-                a(href='#') Faq
+                a(href='#') Support us!
               li
                 a(href='#') Igem Page
+
               li.dropdown
                 a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                   | Get in contact! 
@@ -58,15 +59,16 @@ html.no-js(lang='')
                 ul.dropdown-menu
                   li
                     a(href='#') Our blog
-                  li
-                    a(href='#') The team
+                  //- li
+                  //-   a(href='#') The team
                   li.divider(role='separator')
                   li
-                    a(href='#') Support us!
+                    a(href='#') eMail
       .mainText
-        p PolyBiome is an initiative to reduce the cancerigenous potential of red and processed meats using safe microorganisms.
-        h1 DISCOVER THE 
-          span REVOLUTION
+        p Meet PolyBiome, an initiative to reduce the cancerigenous potential of meat using safe microorganisms in our body.
+        h1 MEET THE 
+          span POLYBIOME 
+          | PROJECT
     #sec1
       .textSec
         h2
@@ -74,25 +76,111 @@ html.no-js(lang='')
           |in every 33 
           span cancers 
           |is adscribed to processed or red meat. 
-        p Acording to the World Health Organitzation Lorem ipsum Mollit incididunt nostrud consectetur sit aute dolore proident in est culpa consectetur officia enim veniam minim laborum in sint minim Excepteur eu in ullamco minim sed ex culpa consequat ad nulla in pariatur veniam quis laborum amet Ut in do dolore in culpa dolor.
+        p In an unprecedented 
+          span
+            a(href='http://www.who.int/mediacentre/news/statements/2015/processed-meat-cancer/') statement
+          |, the World Health Organitzation announced in October 2015 their concern in reference to recent studies by the International Agency for Research on Cancer (IARC) which related processed and red meat intake with colorectal cancer.
+
       .imgSec
-        img(src='img/ribbon.png').img-responsive#ribbon
+        img(src='img/ribbonOrange.png').img-responsive#ribbon
         img(src='img/omsMeat.png').img-responsive#omsMeat
-      .textSec.spaced
-        p Lorem ipsum Eiusmod culpa exercitation deserunt labore Duis magna deserunt ex magna consequat do exercitation nostrud et in id tempor cupidatat eiusmod commodo dolor in ut sit laborum tempor Duis. Lorem ipsum Sint elit minim ea adipisicing officia tempor officia est mollit nostrud amet eu culpa consequat anim voluptate pariatur voluptate ad mollit.
-      .imgSec
+      .textSec.spacedTop
+        p The studies found that 21% of bowel cancers are caused by processed or red meat, which acounts for a 3% of the total world cancers. In the Carcinogenic Groups classification processed meats rank now in the first risk group, and red meats in the second.
+      .imgSec.spacedBottom
         img(src='img/cow.png').food
         img(src='img/pig.png').food   
         img(src='img/bacon.png').food
-        img(src='img/lamb.png').food
+        img(src='img/lamb.png',style="max-width: 40%; margin-left:20px").food
     hr
-    #sec2
+    #sec2.noOverflow
       .textSec
         h2
-          span Lorem ipsum 
-          |Culpa Ut anim culpa ut magna.
-        p Commodo Duis qui magna Duis ex incididunt culpa anim pariatur ut deserunt cupidatat qui officia irure ut consequat anim dolore reprehenderit ullamco in labore laboris consequat Ut in dolor deserunt irure quis sit fugiat.
-    .tempDiv
+          span Polyamines 
+          | are the main responsibles of the meat cancerigenous potential.
+        p These small molecules are involved in processes such as cell proliferation, and are, in small quantities, essential for our bodies. However, if there is a desequilibrium in their concentration, for example, due to continuous meat intake, polyamines can upregulate proliferation, increasing cancer risk and becoming perjudicial for our health.
+      .imgSec
+        img(src='img/mol1.png').img-responsive#mol1
+        img(src='img/mol2.png').img-responsive#mol2
+       .textSec
+        p Once absorbed in the lower intestine, polyamines enter the blod floow and spread across the body, where efficient targeting and control is difficult. Therefore, it is nescesary an approach that eliminates them before they are absorbed. 
+      .imgSec
+        img(src='img/vessel.gif').img-responsive#veins
+    hr
+    #sec3
+      .textSec
+        h2 Polybiome efectively controls 
+          span polyamine levels 
+          | by targeting them in the absorbing phase.
+        p Polybiome is a probiotic consisting on bacteria which degrade the poliamines in the intestinal tract, reducing the external intake and thus minimizing the risk factor of cancer.
+      .imgSec
+        img(src='img/shield.gif').img-responsive#shield    
+    hr
+    #sec4.noOverflow
+      .textSec
+        h2 Polybiome is going to 
+          span iGEM!
+          //| Lorem ipsum Amet consequat consequat culpa laborum.
+        p iGEM is an international synthetic biology competition hold in Boston. We'll be representing university Pompeu Fabra and exposing the Polybiome project. 
+      .imgSec
+        img(src='img/logoIgem.png').img-responsive#logoIgem
+        img(src='img/logoDracBlue.png').img-responsive#logoDracBlue
+    .spacedTop
+    hr
+    #secTeam
+      .textSec
+        h2 The 
+          span Team
+          //| Lorem ipsum Amet consequat consequat culpa laborum.
+        p We are a multidisciplinary and multicultural team associated to Pompeu Fabra University, in Barcelona.
+      br
+      br
+      .container-fluid#faces
+        .row
+          .col-md-2.col-md-offset-1.col-xs-offset-1.col-xs-3.face
+            img(src='img/rue.jpg')
+            figcaption Joan <strong>Rue</strong>
+              .box
+          .col-md-2.col-xs-3.face
+            img(src='img/nil.jpg')
+            figcaption Nil <strong>Adell</strong>
+              .box            
+          .col-md-2.col-xs-3.face
+            img(src='img/atun.jpg')
+            figcaption Alejandro <strong>Antunes</strong>
+              .box
+          .col-md-2.col-xs-3.col-md-offset-0.col-xs-offset-1.face
+            img(src='img/ari.jpg')
+            figcaption Arianne <strong>Bercowsky</strong>
+              .box
+          .col-md-2.col-xs-3.face
+            img(src='img/david.jpg')
+            figcaption David <strong>Tomas</strong> 
+              .box
+          .col-md-2.col-md-offset-1.col-xs-3.col-xs-4.face
+            img(src='img/maria.jpg')
+            figcaption Maria <strong>Montano</strong> 
+              .box
+          .col-md-2.col-xs-3.col-md-offset-0.col-xs-offset-1.face
+            img(src='img/wil.jpg')
+            figcaption Guillem <strong>Torrente</strong> 
+              .box
+          .col-md-2.col-xs-3.face
+            img(src='img/nuria.jpg')
+            figcaption Nuria <strong>Armengol</strong> 
+              .box
+          .col-md-2.col-xs-3.col-xs-4.face
+            img(src='img/laura.jpg')
+            figcaption Laura <strong>Ros</strong>  
+              .box
+          .col-md-2.col-xs-3.col-md-offset-0.col-xs-offset-1.face
+            img(src='img/carmen.jpg')
+            figcaption Carmen <strong>Emilia</strong>  
+              .box
+    .spacedBottom
+    .footer
+      .textFooter
+        p 2016 -- igem@upf.edu
+
     script(script src="js/vendor/jquery-1.12.0.min.js")
     script(src='js/vendor/bootstrap.min.js')
     script(src="js/smooth-scroll.js")
