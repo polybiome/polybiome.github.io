@@ -2,6 +2,10 @@
 
 .body
 	padding-top: 0px
+	
+a
+	&:visited,&:focus
+		outline: 0
 
 .tempDiv
 	height: 2000px
@@ -110,14 +114,14 @@
 			max-width: 20%
 			height: auto
 			left: 40%
-			transform: translate(0px, -30px)
-			transition: transform 0.5s ease-in
-		#mol1
-			transform: translate(-90px, 0px)
-			transition: transform 1s ease-in-out
-		#mol2
-			transform: translate(90px, 0px)
-			transition: transform 1s ease-in-out
+			//transform: translate(0px, -30px)
+			//transition: transform 0.5s ease-in
+		//#mol1
+			//transform: translate(-90px, 0px)
+			//transition: transform 1s ease-in-out
+		//#mol2
+			//transform: translate(90px, 0px)
+			//transition: transform 1s ease-in-out
 		#veins
 			margin-top: -80px
 		#shield
@@ -126,14 +130,14 @@
 			float: left
 			max-width: 50%
 			height: auto
-			transform: translate(-50px, 0px)
-			transition: transform 0.5s ease-in
+			//transform: translate(-50px, 0px)
+			//transition: transform 0.5s ease-in
 		#logoDracBlue
 			float: right
 			max-width: 50%
 			height: auto
-			transform: translate(50px, 0px)
-			transition: transform 0.5s ease-in
+			//transform: translate(50px, 0px)
+			//transition: transform 0.5s ease-in
 	.noOverflow
 		overflow: hidden
 	#omsMeat
@@ -165,7 +169,7 @@ img.food
 			padding: 0px
 			overflow: hidden
 			img
-				min-height: 100%
+				//min-height: 100%
 				max-width: 100%
 				opacity: 0.9
 				transform: scale(1.15)
@@ -242,25 +246,28 @@ img.food
 		outline: none
 		padding-top: 50px
 		margin-right: 20px
+		box-shadow: none
 		.navbar-nav>li>a
 			color: white
 			font-size: 1em
 			&.first
+				color: white
 				border-top-left-radius: 20px
 			&:hover
-				box-shadow: inset 0 3px 9px rgba(0,0,0,0.2)
-				color: white
+				box-shadow: none
+				background-color: rgba(255,255,255,1)
+				color: #777
 			&:active
 				background-color: rgba(255,255,255,1)
-			&:visited
-				color: white
 		.navbar-nav>.active>a
 			background-image: none
 			background-color: rgba(255,255,255,0)
-			box-shadow: inset 0 3px 9px rgba(0,0,0,0.2)
-			color: white
+			box-shadow: none
+			//box-shadow: inset 0 3px 9px rgba(0,0,0,0.2)
+			//color: white
 			&:hover
 				background-color: rgba(255,255,255,1)
+				color: #777
 		.navbar-collapse
 			margin-top: 0px
 			background-color: transparent
@@ -309,7 +316,21 @@ img.food
 		.imgSec
 			margin-left: 30%
 			margin-right: 25%
-
+			#ribbon
+				transform: translate(0px, -30px)
+				transition: transform 0.5s ease-in
+			#mol1
+				transform: translate(-90px, 0px)
+				transition: transform 1s ease-in-out
+			#mol2
+				transform: translate(90px, 0px)
+				transition: transform 1s ease-in-out
+			#logoIgem
+				transform: translate(-50px, 0px)
+				transition: transform 0.5s ease-in
+			#logoDracBlue
+				transform: translate(50px, 0px)
+				transition: transform 0.5s ease-in
 	.spacedTop
 		padding-top: 30%
 	.spacedBottom
@@ -344,7 +365,6 @@ img.food
 	.navbar-default
 		margin-right: 70px
 		.navbar-nav>li>a
-			color: white
 			font-size: 1.5em
 		.navbar-brand
 			margin-top: -20px
@@ -369,6 +389,8 @@ img.food
 	.main
 		background-size: 700px auto, 100% 100%
 		background-position: bottom -100px left -35px, center center
+
+		min-height: -webkit-calc(85% - 0px)
 		min-height: 85vh
 
 	#sec1,#sec2,#sec3,#sec4,#secTeam

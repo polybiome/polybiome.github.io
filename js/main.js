@@ -1,13 +1,13 @@
-$(".navbar-nav a").mouseover(function(){
-	$('.navbar-nav>.active>a').css({
-		'box-shadow' : 'none'
-	});
-});
-$(".navbar-nav a").mouseout(function(){
-	$('.navbar-nav>.active>a').css({
-		'box-shadow' : 'inset 0 3px 9px rgba(0,0,0,0.2)'
-	});
-});
+// $(".navbar-nav a").mouseover(function(){
+// 	$('.navbar-nav>.active>a').css({
+// 		'box-shadow' : 'none'
+// 	});
+// });
+// $(".navbar-nav a").mouseout(function(){
+// 	$('.navbar-nav>.active>a').css({
+// 		'box-shadow' : 'inset 0 3px 9px rgba(0,0,0,0.2)'
+// 	});
+// });
 $(window).scroll(function(){
 	var topScroll = $(this).scrollTop();
 	if (topScroll >=  $(window).height() - 0.5*$('#ribbon').height()){
