@@ -64,6 +64,14 @@ $(window).scroll(function(){
 			'transform' : 'translate(0px, 0px)'
 		});
 	};
+
+$(function() {
+    $('.nav .dropdown-menu a').on('click', function(){ 
+        if($('.navbar-toggle').css('display') !='none'){
+            $(".navbar-toggle").trigger( "click" );
+        }
+    });
+});
 })
 
 smoothScroll.init({

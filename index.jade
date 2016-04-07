@@ -33,7 +33,7 @@ html.no-js(lang='')
         .container-fluid
           // Brand and toggle get grouped for better mobile display
           .navbar-header
-            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1',aria-haspopup="true" , aria-expanded='false')
               span.sr-only Toggle navigation
               span.icon-bar
               span.icon-bar
@@ -50,19 +50,19 @@ html.no-js(lang='')
                   span.caret
                 ul.dropdown-menu
                   li
-                    a(data-scroll,href=".main") Home
+                    a(data-scroll,href=".main" data-toggle="collapse" data-target=".nav-collapse.in") Home
                   li
-                    a(data-scroll,href="#sec1") Meat and colorectal cancer.
+                    a(data-scroll,href="#sec1" data-toggle="collapse" data-target=".nav-collapse.in") Meat and colorectal cancer.
                   li
-                    a(data-scroll,href="#sec2") Polyamines. What are they?
+                    a(data-scroll,href="#sec2" data-toggle="collapse" data-target=".nav-collapse.in") Polyamines. What are they?
                   li
-                    a(data-scroll,href="#sec3") The Polybiome project
+                    a(data-scroll,href="#sec3" data-toggle="collapse" data-target=".nav-collapse.in") The Polybiome project
                   li
-                    a(data-scroll,href="#sec4") Polybiome and igem.
+                    a(data-scroll,href="#sec4" data-toggle="collapse" data-target=".nav-collapse.in") Polybiome and igem.
                   li
-                    a(data-scroll,href="#secTeam") The team!
+                    a(data-scroll,href="#secTeam" data-toggle="collapse" data-target=".nav-collapse.in") The team!
                   li
-                    a(data-scroll,href="#secSponsors") Our sponsors and collaborations
+                    a(data-scroll,href="#secSponsors" data-toggle="collapse" data-target=".nav-collapse.in") Our sponsors and collaborations
               li
                 a(href='#') Support us!
               li
