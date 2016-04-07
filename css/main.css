@@ -1,0 +1,628 @@
+/* line 3, main.sass */
+.body {
+  padding-top: 0px;
+}
+
+/* line 7, main.sass */
+a:visited, a:focus {
+  outline: 0;
+}
+
+/* line 10, main.sass */
+.tempDiv {
+  height: 2000px;
+}
+
+/* line 12, main.sass */
+#tmp {
+  margin-left: 40%;
+  width: 20%;
+}
+
+/* line 16, main.sass */
+.navbarEffect {
+  background-color: #0078AA !important;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF0078AA', endColorstr='#FF009EAA');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNzhhYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwOWVhYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') !important;
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #0078aa), color-stop(100%, #009eaa)) !important;
+  background-image: -moz-linear-gradient(left, #0078aa 0%, #009eaa 100%) !important;
+  background-image: -webkit-linear-gradient(left, #0078aa 0%, #009eaa 100%) !important;
+  background-image: linear-gradient(to right, #0078aa 0%, #009eaa 100%) !important;
+  padding-top: 10px !important;
+  transition: 0.5s all ease !important;
+}
+
+/* line 24, main.sass */
+.navbar-default {
+  box-shadow: none;
+  position: relative;
+  border: none;
+  outline: 1px solid white;
+  outline-offset: 5px;
+  border-radius: 0px;
+  height: 150px;
+  margin-bottom: 0px;
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+/* line 36, main.sass */
+.navbar-default .navbar-toggle {
+  margin-top: 5%;
+  margin-right: 10%;
+  z-index: 1;
+}
+/* line 40, main.sass */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+  margin-top: 5px;
+  height: 4px;
+  width: 25px;
+}
+/* line 46, main.sass */
+.navbar-default button {
+  border: none;
+}
+/* line 49, main.sass */
+.navbar-default .navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -115px;
+  display: block;
+  height: 150px;
+  padding-bottom: 10px;
+}
+/* line 57, main.sass */
+.navbar-default .navbar-brand img {
+  height: 100%;
+  width: auto;
+}
+/* line 61, main.sass */
+.navbar-default .navbar-collapse {
+  border: none;
+  box-shadow: none;
+  background: white;
+  margin-top: 50px;
+  height: auto !important;
+}
+
+/* line 68, main.sass */
+.main {
+  background: #eb01a5, linear-gradient(to right, #0078aa, #009eaa);
+  background-image: url("../img/backIco.png");
+  background-image: url("../img/backIco.png"), linear-gradient(to right, #0078aa, #009eaa);
+  background-image: url("../img/backIco.png"), -moz-linear-gradient(left, #0078AA, #009EAA);
+  background-image: url("../img/backIco.png"), -webkit-gradient(linear, 100% 0%, 0% 0%, color-stop(100%, #0078AA), color-stop(0%, #009EAA));
+  background-image: url("../img/backIco.png"), -webkit-gradient(left, #0078AA, #009EAA);
+  background-image: url("../img/backIco.png"), -o-linear-gradient(left, #0078AA, #009EAA);
+  background-size: 250px auto, 100% 100%;
+  background-position: bottom -35px left -35px, center center;
+  background-repeat: no-repeat;
+}
+
+/* line 82, main.sass */
+.mainText {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  min-height: 250px;
+  text-align: center;
+}
+/* line 88, main.sass */
+.mainText h1 {
+  font-size: 2.5em;
+  color: white;
+  font-weight: bold;
+  font-family: Netto Offc, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 93, main.sass */
+.mainText h1 span {
+  color: #F7AC1E;
+}
+/* line 95, main.sass */
+.mainText p {
+  color: white;
+  font-size: 1em;
+}
+
+/* line 99, main.sass */
+.sec .textSec {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+/* line 104, main.sass */
+.sec .textSec h2 {
+  font-size: 1.8em;
+  font-family: Netto Offc, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #0078AA;
+}
+/* line 109, main.sass */
+.sec .textSec h2 span {
+  color: #F7AC1E;
+}
+/* line 111, main.sass */
+.sec .textSec p {
+  text-align: center;
+  line-height: 200%;
+  color: #7f7f7f;
+}
+/* line 115, main.sass */
+.sec .textSec a {
+  color: #F7AC1E;
+}
+/* line 118, main.sass */
+.sec .imgSec {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  position: relative;
+}
+/* line 123, main.sass */
+.sec .imgSec #ribbon {
+  position: absolute;
+  max-width: 20%;
+  height: auto;
+  left: 40%;
+}
+/* line 136, main.sass */
+.sec .imgSec #veins {
+  margin-top: -80px;
+}
+/* line 138, main.sass */
+.sec .imgSec #shield {
+  margin-top: -80px;
+}
+/* line 140, main.sass */
+.sec .imgSec #logoIgem {
+  float: left;
+  max-width: 50%;
+  height: auto;
+}
+/* line 146, main.sass */
+.sec .imgSec #logoDracBlue {
+  float: right;
+  position: absolute;
+  max-width: 70%;
+  margin-top: -30px;
+  display: inline-block;
+}
+/* line 154, main.sass */
+.sec .noOverflow {
+  overflow: hidden;
+}
+/* line 156, main.sass */
+.sec #omsMeat {
+  position: absolute;
+}
+
+/* line 159, main.sass */
+.spacedTop {
+  padding-top: 50%;
+}
+
+/* line 161, main.sass */
+.spacedBottom {
+  padding-bottom: 10%;
+}
+
+/* line 164, main.sass */
+img.food {
+  position: inline-block;
+  max-width: 50%;
+  height: auto;
+  opacity: 0;
+  transform: translateX(30px);
+  transition: all 0.4s ease-in-out;
+}
+/* line 171, main.sass */
+img.food.is-showing {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+/* line 175, main.sass */
+#secTeam #faces {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* line 178, main.sass */
+#secTeam #faces .face {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 0px;
+  overflow: hidden;
+}
+/* line 184, main.sass */
+#secTeam #faces .face img {
+  max-width: 100%;
+  opacity: 0.9;
+  transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  transition: opacity 0.35s, transform 0.35s, filter 0.2s;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+/* line 193, main.sass */
+#secTeam #faces .face img:hover {
+  opacity: 0.8;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+/* line 199, main.sass */
+#secTeam #faces .face figcaption {
+  position: absolute;
+  top: 80%;
+  right: -100%;
+  background: black;
+  color: white;
+  padding: 2px 8px;
+  font-size: 6px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+/* line 209, main.sass */
+#secTeam #faces .face figcaption .box {
+  background-color: #F7AC1E;
+  width: 6px;
+  height: 12px;
+  float: left;
+  padding: 0px;
+  margin: -5px 0px 0px -10px;
+}
+/* line 217, main.sass */
+#secTeam #faces .face:hover figcaption {
+  right: 0%;
+}
+
+/* line 221, main.sass */
+.sponsors img {
+  max-width: 50%;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* line 227, main.sass */
+.footer {
+  background: #eb01a5, linear-gradient(to right, #0078aa, #009eaa);
+  background-image: url("../img/backIcoR.png");
+  background-image: url("../img/backIcoR.png"), linear-gradient(to right, #0078aa, #009eaa);
+  background-image: url("../img/backIcoR.png"), -moz-linear-gradient(left, #0078AA, #009EAA);
+  background-image: url("../img/backIcoR.png"), -webkit-gradient(linear, 100% 0%, 0% 0%, color-stop(100%, #0078AA), color-stop(0%, #009EAA));
+  background-image: url("../img/backIcoR.png"), -webkit-gradient(left, #0078AA, #009EAA);
+  background-image: url("../img/backIcoR.png"), -o-linear-gradient(left, #0078AA, #009EAA);
+  background-size: 250px auto, 100% 100%;
+  background-position: bottom -35px right -35px, center center;
+  background-repeat: no-repeat;
+  min-height: 50px;
+}
+/* line 240, main.sass */
+.footer .textFooter {
+  position: relative;
+}
+/* line 242, main.sass */
+.footer .textFooter p {
+  color: white;
+  font-size: 1em;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 25px;
+  text-align: center;
+}
+
+@media all and (orientation: landscape) {
+  /* line 254, main.sass */
+  .main {
+    min-height: 0px;
+  }
+
+  /* line 256, main.sass */
+  .mainText {
+    min-height: 150px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 262, main.sass */
+  .navbar-default {
+    background-color: transparent;
+    height: 100px;
+    border-bottom: none;
+    outline: none;
+    padding-top: 50px;
+    margin-right: 20px;
+    box-shadow: none;
+  }
+  /* line 270, main.sass */
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 1em;
+  }
+  /* line 273, main.sass */
+  .navbar-default .navbar-nav > li > a.first {
+    color: white;
+    border-top-left-radius: 20px;
+  }
+  /* line 276, main.sass */
+  .navbar-default .navbar-nav > li > a:hover {
+    box-shadow: none;
+    background-color: white;
+    color: #777;
+  }
+  /* line 280, main.sass */
+  .navbar-default .navbar-nav > li > a:active {
+    background-color: white;
+  }
+  /* line 282, main.sass */
+  .navbar-default .navbar-nav > .active > a {
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+  }
+  /* line 288, main.sass */
+  .navbar-default .navbar-nav > .active > a:hover {
+    background-color: white;
+    color: #777;
+  }
+  /* line 291, main.sass */
+  .navbar-default .navbar-collapse {
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-right: 50px;
+    background-color: transparent;
+  }
+  /* line 297, main.sass */
+  .navbar-default .navbar-brand {
+    margin-top: -20px;
+    left: auto;
+    height: 100px;
+    margin-left: 0px;
+    padding-left: 5%;
+  }
+  /* line 303, main.sass */
+  .navbar-default .navbar-brand img {
+    height: 100%;
+    width: auto;
+    padding-left: 50px;
+  }
+
+  /* line 307, main.sass */
+  .dropdown-menu {
+    width: 100%;
+  }
+  /* line 309, main.sass */
+  .dropdown-menu .divider {
+    width: 100%;
+  }
+
+  /* line 311, main.sass */
+  .nav {
+    width: 60%;
+  }
+  /* line 313, main.sass */
+  .nav li {
+    width: 25%;
+    text-align: center;
+  }
+
+  /* line 316, main.sass */
+  .main {
+    background-size: 400px auto, 100% 100%;
+    background-position: bottom -80px left -35px, center center;
+    min-height: 75vh;
+  }
+
+  /* line 320, main.sass */
+  .mainText {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+  /* line 324, main.sass */
+  .mainText p {
+    font-size: 1.3em;
+  }
+  /* line 326, main.sass */
+  .mainText h1 {
+    font-size: 2em;
+    padding-top: 20px;
+  }
+
+  /* line 331, main.sass */
+  .sec .textSec h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  /* line 334, main.sass */
+  .sec .textSec p {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  /* line 338, main.sass */
+  .sec .imgSec {
+    margin-left: 30%;
+    margin-right: 25%;
+  }
+  /* line 341, main.sass */
+  .sec .imgSec #ribbon {
+    transform: translate(0px, -30px);
+    transition: transform 0.5s ease-in;
+  }
+  /* line 344, main.sass */
+  .sec .imgSec #mol1 {
+    transform: translate(-90px, 0px);
+    transition: transform 1s ease-in-out;
+  }
+  /* line 347, main.sass */
+  .sec .imgSec #mol2 {
+    transform: translate(90px, 0px);
+    transition: transform 1s ease-in-out;
+  }
+  /* line 350, main.sass */
+  .sec .imgSec #logoIgem {
+    transform: translate(-50px, 0px);
+    transition: transform 0.5s ease-in;
+  }
+  /* line 353, main.sass */
+  .sec .imgSec #logoDracBlue {
+    transform: translate(50px, 0px);
+    transition: transform 0.5s ease-in;
+  }
+
+  /* line 356, main.sass */
+  .spacedTop {
+    padding-top: 30%;
+  }
+
+  /* line 358, main.sass */
+  .spacedBottom {
+    padding-bottom: 10%;
+  }
+
+  /* line 363, main.sass */
+  #secTeam #faces .face figcaption {
+    font-size: 11px;
+  }
+  /* line 365, main.sass */
+  #secTeam #faces .face figcaption .box {
+    width: 10px;
+    height: 16px;
+    margin: -7px 0px 0px -12px;
+  }
+
+  /* line 369, main.sass */
+  .footer {
+    min-height: 200px;
+  }
+  /* line 371, main.sass */
+  .footer .textFooter {
+    position: relative;
+  }
+  /* line 373, main.sass */
+  .footer .textFooter p {
+    font-size: 2em;
+    padding-top: 50px;
+  }
+}
+@media all and (orientation: portrait) and (min-width: 768px) {
+  /* line 380, main.sass */
+  .main {
+    min-height: 50vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 387, main.sass */
+  .navbar-default {
+    margin-right: 70px;
+  }
+  /* line 389, main.sass */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 1.2em;
+  }
+  /* line 391, main.sass */
+  .navbar-default .navbar-brand {
+    margin-top: -20px;
+    left: auto;
+    height: 100px;
+    margin-left: 0px;
+    padding-left: 5%;
+  }
+  /* line 397, main.sass */
+  .navbar-default .navbar-brand img {
+    height: 175%;
+    width: auto;
+    padding-left: 50px;
+  }
+
+  /* line 402, main.sass */
+  .mainText {
+    margin-top: 12%;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  /* line 406, main.sass */
+  .mainText p {
+    font-size: 2em;
+  }
+  /* line 408, main.sass */
+  .mainText h1 {
+    font-size: 3.5em;
+    padding-top: 50px;
+  }
+
+  /* line 411, main.sass */
+  .main {
+    background-size: 700px auto, 100% 100%;
+    background-position: bottom -100px left -35px, center center;
+    min-height: -webkit-calc(85% - 0px);
+    min-height: 85vh;
+  }
+
+  /* line 421, main.sass */
+  .sec .textSec h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 3em;
+  }
+  /* line 425, main.sass */
+  .sec .textSec p {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1.5em;
+    margin-top: 50px;
+  }
+  /* line 430, main.sass */
+  .sec .imgSec {
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  /* line 434, main.sass */
+  .sec .imgSec #ribbon {
+    transform: translate(0px, -80px);
+    transition: transform 0.5s ease-in;
+  }
+
+  /* line 437, main.sass */
+  .spacedTop {
+    padding-top: 15%;
+  }
+
+  /* line 439, main.sass */
+  .spacedBottom {
+    padding-bottom: 5%;
+  }
+
+  /* line 442, main.sass */
+  #secTeam #faces {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+@media all and (orientation: landscape) and (min-width: 768px) {
+  /* line 453, main.sass */
+  .sec .textSec p {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  /* line 457, main.sass */
+  #secTeam #faces {
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  /* line 464, main.sass */
+  .navbar-default .navbar-nav > li > a {
+    font-weight: bold;
+  }
+
+  /* line 467, main.sass */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 1.5em;
+  }
+}

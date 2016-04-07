@@ -1,0 +1,468 @@
+@import compass
+
+.body
+	padding-top: 0px
+	
+a
+	&:visited,&:focus
+		outline: 0
+
+.tempDiv
+	height: 2000px
+#tmp
+	margin-left: 40%
+	width: 20%
+
+.navbarEffect
+	background-color: #0078AA !important// Old browsers 
+	@include filter-gradient(#0078AA, #009EAA, vertical !important) // IE6-9
+	@include background-image(linear-gradient(left, #0078AA 0%,#009EAA 100%) !important)
+	//box-shadow: 0 0 10px black !important
+	padding-top: 10px !important
+	transition: 0.5s all ease !important
+
+.navbar-default
+	box-shadow: none
+	position: relative
+	border: none
+	outline: 1px solid rgba(255,255,255,1)
+	outline-offset: 5px
+	border-radius: 0px
+	height: 150px
+	margin-bottom: 0px
+	background-image: none
+	background-color: rgba(255,255,255,0)
+
+	.navbar-toggle
+		margin-top: 5%
+		margin-right: 10%
+		z-index: 1
+		.icon-bar
+			background-color: rgb(255,255,255)
+			margin-top: 5px
+			height: 4px
+			width: 25px
+
+	button
+		border: none
+
+	.navbar-brand
+		position: absolute
+		left: 50%
+		margin-left: -115px /* 50% of your logo width */
+		display: block
+		height: 150px
+		padding:
+			bottom: 10px
+		img
+			height: 100%
+			width: auto
+
+	.navbar-collapse
+		border: none
+		box-shadow: none
+		background: rgba(255,255,255,1)
+		margin-top: 50px
+		height: auto !important
+
+.main
+	background: #eb01a5,linear-gradient(left,#0078AA, #009EAA) 
+	background-image: url('../img/backIco.png') /* fallback */
+	background-image: url('../img/backIco.png'), linear-gradient(left,#0078AA, #009EAA) /* W3C */
+	background-image: url('../img/backIco.png'),-moz-linear-gradient(left, #0078AA, #009EAA) // FF 3.6+
+	background-image: url('../img/backIco.png'), -webkit-gradient(linear, 100% 0%, 0% 0%, color-stop(100%,#0078AA), color-stop(0%,#009EAA)) // Safari 4+, Chrome 2+
+	background-image: url('../img/backIco.png'), -webkit-gradient(left, #0078AA, #009EAA) // Safari 5.1+, Chrome 10+
+	background-image: url('../img/backIco.png'), -o-linear-gradient(left, #0078AA, #009EAA) // Opera 11.10
+	background:
+		size: 250px auto, 100% 100%
+		position: bottom -35px left -35px, center center
+		repeat: no-repeat
+
+
+.mainText
+	margin-left: 5%
+	margin-right: 5%
+	margin-top: 10%
+	min-height: 250px
+	text-align: center
+	h1
+		font-size: 2.5em
+		color: white
+		font-weight: bold
+		font-family: Netto Offc,"Helvetica Neue",Helvetica,Arial,sans-serif
+		span
+			color: #F7AC1E
+	p
+		color: white
+		font-size: 1em
+.sec
+	.textSec
+		margin-top: 5%
+		margin-left: 5%
+		margin-right: 5%
+		text-align: center
+		h2
+			font-size: 1.8em
+			font-family: Netto Offc,"Helvetica Neue",Helvetica,Arial,sans-serif
+			font-weight: bold
+			color: #0078AA
+			span
+				color: #F7AC1E
+		p
+			text-align: center
+			line-height: 200%
+			color: #7f7f7f
+		a
+			color: #F7AC1E
+
+	.imgSec
+		margin-left: 10%
+		margin-right: 10%
+		margin-top: 10%
+		position: relative
+		#ribbon
+			position: absolute
+			max-width: 20%
+			height: auto
+			left: 40%
+			//transform: translate(0px, -30px)
+			//transition: transform 0.5s ease-in
+		//#mol1
+			//transform: translate(-90px, 0px)
+			//transition: transform 1s ease-in-out
+		//#mol2
+			//transform: translate(90px, 0px)
+			//transition: transform 1s ease-in-out
+		#veins
+			margin-top: -80px
+		#shield
+			margin-top: -80px
+		#logoIgem
+			float: left
+			max-width: 50%
+			height: auto
+			//transform: translate(-50px, 0px)
+			//transition: transform 0.5s ease-in
+		#logoDracBlue
+			float: right
+			position: absolute
+			max-width: 70%
+			margin-top: -30px
+			display: inline-block
+			//transform: translate(50px, 0px)
+			//transition: transform 0.5s ease-in
+	.noOverflow
+		overflow: hidden
+	#omsMeat
+		position: absolute
+
+.spacedTop
+	padding-top: 50%
+.spacedBottom
+	padding-bottom: 10%
+
+img.food
+	position: inline-block
+	max-width: 50%
+	height: auto
+	opacity: 0
+	transform: translateX(30px)
+	transition: all 0.4s ease-in-out
+	&.is-showing
+		opacity: 1
+		transform: translateX(0px)
+#secTeam
+	#faces
+		margin-left: 5%
+		margin-right: 5%
+		.face
+			margin-bottom: 20px
+			//margin-left: 10px
+			margin-right: 10px
+			padding: 0px
+			overflow: hidden
+			img
+				//min-height: 100%
+				max-width: 100%
+				opacity: 0.9
+				transform: scale(1.15)
+				-webkit-transform: scale(1.15)
+				transition: opacity 0.35s, transform 0.35s, filter 0.2s //ease-in-out
+				filter: grayscale(100%)
+				-webkit-filter: grayscale(100%)
+				&:hover
+					opacity: 0.8
+					transform: scale(1)
+					-webkit-transform: scale(1)
+					filter: grayscale(0%)
+					-webkit-filter: grayscale(0%)
+			figcaption
+				position: absolute
+				top: 80%
+				right: -100%
+				background: black
+				color: white
+				padding: 2px 8px
+				font-size: 6px
+				transition: all 0.3s ease-in-out
+				pointer-events: none
+				.box
+					background-color: #F7AC1E
+					width: 6px
+					height: 12px
+					float: left
+					padding: 0px
+					margin: -5px 0px 0px -10px
+			&:hover
+				figcaption
+					right: 0%
+
+.sponsors
+	img
+		max-width: 50%
+		display: inline-block
+		margin-right: 20px
+
+
+.footer
+	background: #eb01a5,linear-gradient(left,#0078AA, #009EAA) 
+	background-image: url('../img/backIcoR.png') /* fallback */
+	background-image: url('../img/backIcoR.png'), linear-gradient(left,#0078AA, #009EAA) /* W3C */
+	background-image: url('../img/backIcoR.png'),-moz-linear-gradient(left, #0078AA, #009EAA) // FF 3.6+
+	background-image: url('../img/backIcoR.png'), -webkit-gradient(linear, 100% 0%, 0% 0%, color-stop(100%,#0078AA), color-stop(0%,#009EAA)) // Safari 4+, Chrome 2+
+	background-image: url('../img/backIcoR.png'), -webkit-gradient(left, #0078AA, #009EAA) // Safari 5.1+, Chrome 10+
+	background-image: url('../img/backIcoR.png'), -o-linear-gradient(left, #0078AA, #009EAA) // Opera 11.10
+	background:
+		size: 250px auto, 100% 100%
+		position: bottom -35px right -35px, center center
+		repeat: no-repeat
+	min-height: 50px
+	.textFooter
+		position: relative
+		p
+			color: white
+			font-size: 1em
+			margin-left: 5%
+			margin-right: 5%
+			padding-top: 25px
+			text-align: center
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media all and (orientation: landscape)
+	.main
+		min-height: 0px
+	.mainText
+		min-height: 150px
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media screen and (min-width: 768px)
+	.navbar-default
+		background-color: transparent
+		height: 100px
+		border-bottom: none
+		outline: none
+		padding-top: 50px
+		margin-right: 20px
+		box-shadow: none
+		.navbar-nav>li>a
+			color: white
+			font-size: 1em
+			&.first
+				color: white
+				border-top-left-radius: 20px
+			&:hover
+				box-shadow: none
+				background-color: rgba(255,255,255,1)
+				color: #777
+			&:active
+				background-color: rgba(255,255,255,1)
+		.navbar-nav>.active>a
+			background-image: none
+			background-color: rgba(255,255,255,0)
+			box-shadow: none
+			//box-shadow: inset 0 3px 9px rgba(0,0,0,0.2)
+			//color: white
+			&:hover
+				background-color: rgba(255,255,255,1)
+				color: #777
+		.navbar-collapse
+			margin-top: 0px
+			padding-top: 50px
+			padding-right: 50px
+			background-color: transparent
+
+		.navbar-brand
+			margin-top: -20px
+			left: auto
+			height: 100px
+			margin-left: 0px
+			padding-left: 5%
+			img
+				height: 100%
+				width: auto
+				padding-left: 50px
+	.dropdown-menu
+		width: 100%
+		.divider
+			width: 100%
+	.nav
+		width: 60%
+		li
+			width: 25%
+			text-align: center
+	.main
+		background-size: 400px auto, 100% 100%
+		background-position: bottom -80px left -35px, center center
+		min-height: 75vh
+	.mainText
+		margin-right: 15%
+		margin-left: 15%
+		margin-top: 10%
+		p
+			font-size: 1.3em
+		h1
+			font-size: 2em
+			padding-top: 20px
+	.sec
+		.textSec
+			h2
+				margin-left: 10%
+				margin-right: 10%
+			p
+				margin-left: 15%
+				margin-right: 15%
+
+		.imgSec
+			margin-left: 30%
+			margin-right: 25%
+			#ribbon
+				transform: translate(0px, -30px)
+				transition: transform 0.5s ease-in
+			#mol1
+				transform: translate(-90px, 0px)
+				transition: transform 1s ease-in-out
+			#mol2
+				transform: translate(90px, 0px)
+				transition: transform 1s ease-in-out
+			#logoIgem
+				transform: translate(-50px, 0px)
+				transition: transform 0.5s ease-in
+			#logoDracBlue
+				transform: translate(50px, 0px)
+				transition: transform 0.5s ease-in
+	.spacedTop
+		padding-top: 30%
+	.spacedBottom
+		padding-bottom: 10%
+	#secTeam
+		#faces
+			.face
+				figcaption
+					font-size: 11px
+					.box
+						width: 10px
+						height: 16px
+						margin: -7px 0px 0px -12px
+	.footer
+		min-height: 200px
+		.textFooter
+			position: relative
+			p
+				font-size: 2em
+				padding-top: 50px
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media all and (orientation:portrait) and (min-width: 768px)
+	.main
+		min-height: 50vh
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media screen and (min-width: 1024px)
+	.navbar-default
+		margin-right: 70px
+		.navbar-nav>li>a
+			font-size: 1.2em
+		.navbar-brand
+			margin-top: -20px
+			left: auto
+			height: 100px
+			margin-left: 0px
+			padding-left: 5%
+			img
+				height: 175%
+				width: auto
+				padding-left: 50px
+
+	.mainText
+		margin-top: 12%
+		margin-right: 25%
+		margin-left: 25%
+		p
+			font-size: 2em
+		h1
+			font-size: 3.5em
+			padding-top: 50px
+	.main
+		background-size: 700px auto, 100% 100%
+		background-position: bottom -100px left -35px, center center
+
+		min-height: -webkit-calc(85% - 0px)
+		min-height: 85vh
+
+	.sec
+		.textSec
+
+			h2
+				margin-left: 20%
+				margin-right: 20%
+				font-size: 3em
+			p
+				margin-left: 25%
+				margin-right: 25%
+				font-size: 1.5em
+				margin-top: 50px		
+		.imgSec
+			margin-top: 5%
+			margin-left: 35%
+			margin-right: 35%
+			#ribbon
+				transform: translate(0px, -80px)
+				transition: transform 0.5s ease-in	
+	.spacedTop
+		padding-top: 15%
+	.spacedBottom
+		padding-bottom: 5%
+	#secTeam
+		#faces
+			margin-left: 0%
+			margin-right: 0%
+	// .footer
+	// 	min-height: 200px
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media all and (orientation: landscape) and (min-width: 768px)
+	.sec
+		.textSec
+			p
+				margin-left: 20%
+				margin-right: 20%	
+	#secTeam
+		#faces
+			margin-right: 5%
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media screen and (min-width: 1280px)
+	.navbar-default
+		.navbar-nav>li>a
+			font-weight: bold
+	.navbar-default
+		.navbar-nav>li>a
+			font-size: 1.5em
