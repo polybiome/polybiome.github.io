@@ -245,30 +245,20 @@ img.food.is-showing {
 /* line 186, main.sass */
 #secTeam #faces .face img {
   max-width: 100%;
-  opacity: 0.9;
-  transition: opacity 0.35s, transform 0.35s;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
-/* line 195, main.sass */
-#secTeam #faces .face img:hover {
-  opacity: 0.8;
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-}
-/* line 201, main.sass */
+/* line 190, main.sass */
 #secTeam #faces .face figcaption {
   position: absolute;
   top: 80%;
-  right: -100%;
   background: black;
   color: white;
   padding: 2px 8px;
   font-size: 6px;
-  transition: all 0.3s ease-in-out;
   pointer-events: none;
 }
-/* line 211, main.sass */
+/* line 198, main.sass */
 #secTeam #faces .face figcaption .box {
   background-color: #F7AC1E;
   width: 6px;
@@ -277,19 +267,15 @@ img.food.is-showing {
   padding: 0px;
   margin: -5px 0px 0px -10px;
 }
-/* line 219, main.sass */
-#secTeam #faces .face:hover figcaption {
-  right: 0%;
-}
 
-/* line 223, main.sass */
+/* line 207, main.sass */
 .sponsors img {
   max-width: 50%;
   display: inline-block;
   margin-right: 20px;
 }
 
-/* line 229, main.sass */
+/* line 213, main.sass */
 .footer {
   background: #eb01a5, linear-gradient(to right, #0078aa, #009eaa);
   background-image: url("../img/backIcoR.png");
@@ -303,11 +289,11 @@ img.food.is-showing {
   background-repeat: no-repeat;
   min-height: 50px;
 }
-/* line 242, main.sass */
+/* line 226, main.sass */
 .footer .textFooter {
   position: relative;
 }
-/* line 244, main.sass */
+/* line 228, main.sass */
 .footer .textFooter p {
   color: white;
   font-size: 1em;
@@ -318,18 +304,18 @@ img.food.is-showing {
 }
 
 @media all and (orientation: landscape) {
-  /* line 256, main.sass */
+  /* line 240, main.sass */
   .main {
     min-height: 0px;
   }
 
-  /* line 258, main.sass */
+  /* line 242, main.sass */
   .mainText {
     min-height: 150px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 264, main.sass */
+  /* line 248, main.sass */
   .navbar-default {
     background-color: transparent;
     height: 100px;
@@ -339,45 +325,45 @@ img.food.is-showing {
     margin-right: 20px;
     box-shadow: none;
   }
-  /* line 272, main.sass */
+  /* line 256, main.sass */
   .navbar-default .navbar-nav > li > a {
     color: white;
     font-size: 1em;
   }
-  /* line 275, main.sass */
+  /* line 259, main.sass */
   .navbar-default .navbar-nav > li > a.first {
     color: white;
     border-top-left-radius: 20px;
   }
-  /* line 278, main.sass */
+  /* line 262, main.sass */
   .navbar-default .navbar-nav > li > a:hover {
     box-shadow: none;
     background-color: white;
     color: #777;
   }
-  /* line 282, main.sass */
+  /* line 266, main.sass */
   .navbar-default .navbar-nav > li > a:active {
     background-color: white;
   }
-  /* line 284, main.sass */
+  /* line 268, main.sass */
   .navbar-default .navbar-nav > .active > a {
     background-image: none;
     background-color: rgba(255, 255, 255, 0);
     box-shadow: none;
   }
-  /* line 290, main.sass */
+  /* line 274, main.sass */
   .navbar-default .navbar-nav > .active > a:hover {
     background-color: white;
     color: #777;
   }
-  /* line 293, main.sass */
+  /* line 277, main.sass */
   .navbar-default .navbar-collapse {
     margin-top: 0px;
     padding-top: 50px;
     padding-right: 50px;
     background-color: transparent;
   }
-  /* line 299, main.sass */
+  /* line 283, main.sass */
   .navbar-default .navbar-brand {
     margin-top: -20px;
     left: auto;
@@ -385,148 +371,165 @@ img.food.is-showing {
     margin-left: 0px;
     padding-left: 5%;
   }
-  /* line 305, main.sass */
+  /* line 289, main.sass */
   .navbar-default .navbar-brand img {
     height: 100%;
     width: auto;
     padding-left: 50px;
   }
 
-  /* line 309, main.sass */
+  /* line 293, main.sass */
   .dropdown-menu {
     width: 100%;
     font-size: 0.5em;
   }
-  /* line 312, main.sass */
+  /* line 296, main.sass */
   .dropdown-menu .divider {
     width: 100%;
   }
 
-  /* line 314, main.sass */
+  /* line 298, main.sass */
   .nav {
     width: 60%;
   }
-  /* line 316, main.sass */
+  /* line 300, main.sass */
   .nav li {
     width: 25%;
     text-align: center;
   }
 
-  /* line 319, main.sass */
+  /* line 303, main.sass */
   .main {
     background-size: 400px auto, 100% 100%;
     background-position: bottom -80px left -35px, center center;
     min-height: 75vh;
   }
 
-  /* line 323, main.sass */
+  /* line 307, main.sass */
   .mainText {
     margin-right: 15%;
     margin-left: 15%;
     margin-top: 10%;
   }
-  /* line 327, main.sass */
+  /* line 311, main.sass */
   .mainText p {
     font-size: 1.3em;
   }
-  /* line 329, main.sass */
+  /* line 313, main.sass */
   .mainText h1 {
     font-size: 2em;
     padding-top: 20px;
   }
 
-  /* line 334, main.sass */
+  /* line 318, main.sass */
   .sec .textSec h2 {
     margin-left: 10%;
     margin-right: 10%;
   }
-  /* line 337, main.sass */
+  /* line 321, main.sass */
   .sec .textSec p {
     margin-left: 15%;
     margin-right: 15%;
   }
-  /* line 341, main.sass */
+  /* line 325, main.sass */
   .sec .imgSec {
     margin-left: 30%;
     margin-right: 25%;
   }
-  /* line 344, main.sass */
+  /* line 328, main.sass */
   .sec .imgSec #ribbon {
     transform: translate(0px, -30px);
     transition: transform 0.5s ease-in;
   }
-  /* line 347, main.sass */
+  /* line 331, main.sass */
   .sec .imgSec #mol1 {
     transform: translate(-90px, 0px);
     transition: transform 1s ease-in-out;
   }
-  /* line 350, main.sass */
+  /* line 334, main.sass */
   .sec .imgSec #mol2 {
     transform: translate(90px, 0px);
     transition: transform 1s ease-in-out;
   }
-  /* line 353, main.sass */
+  /* line 337, main.sass */
   .sec .imgSec #logoIgem {
     transform: translate(-50px, 0px);
     transition: transform 0.5s ease-in;
   }
-  /* line 356, main.sass */
+  /* line 340, main.sass */
   .sec .imgSec #logoDracBlue {
     transform: translate(50px, 0px);
     transition: transform 0.5s ease-in;
   }
 
-  /* line 359, main.sass */
+  /* line 343, main.sass */
   .spacedTop {
     padding-top: 30%;
   }
 
-  /* line 361, main.sass */
+  /* line 345, main.sass */
   .spacedBottom {
     padding-bottom: 10%;
   }
 
-  /* line 366, main.sass */
-  #secTeam #faces .face figcaption {
-    font-size: 11px;
+  /* line 351, main.sass */
+  #secTeam #faces .face img {
+    opacity: 0.9;
+    transition: opacity 0.35s, transform 0.35s;
   }
-  /* line 368, main.sass */
+  /* line 356, main.sass */
+  #secTeam #faces .face img:hover {
+    opacity: 0.8;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+  }
+  /* line 362, main.sass */
+  #secTeam #faces .face figcaption {
+    right: -100%;
+    font-size: 11px;
+    transition: all 0.3s ease-in-out;
+  }
+  /* line 366, main.sass */
   #secTeam #faces .face figcaption .box {
     width: 10px;
     height: 16px;
     margin: -7px 0px 0px -12px;
   }
+  /* line 371, main.sass */
+  #secTeam #faces .face:hover figcaption {
+    right: 0%;
+  }
 
-  /* line 372, main.sass */
+  /* line 373, main.sass */
   .footer {
     min-height: 200px;
   }
-  /* line 374, main.sass */
+  /* line 375, main.sass */
   .footer .textFooter {
     position: relative;
   }
-  /* line 376, main.sass */
+  /* line 377, main.sass */
   .footer .textFooter p {
     font-size: 2em;
     padding-top: 50px;
   }
 }
 @media all and (orientation: portrait) and (min-width: 768px) {
-  /* line 383, main.sass */
+  /* line 384, main.sass */
   .main {
     min-height: 50vh;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 390, main.sass */
+  /* line 391, main.sass */
   .navbar-default {
     margin-right: 70px;
   }
-  /* line 392, main.sass */
+  /* line 393, main.sass */
   .navbar-default .navbar-nav > li > a {
     font-size: 1.2em;
   }
-  /* line 394, main.sass */
+  /* line 395, main.sass */
   .navbar-default .navbar-brand {
     margin-top: -20px;
     left: auto;
@@ -534,35 +537,35 @@ img.food.is-showing {
     margin-left: 0px;
     padding-left: 5%;
   }
-  /* line 400, main.sass */
+  /* line 401, main.sass */
   .navbar-default .navbar-brand img {
     height: 175%;
     width: auto;
     padding-left: 50px;
   }
 
-  /* line 404, main.sass */
+  /* line 405, main.sass */
   .dropdown-menu {
     font-size: 1em;
   }
 
-  /* line 406, main.sass */
+  /* line 407, main.sass */
   .mainText {
     margin-top: 12%;
     margin-right: 25%;
     margin-left: 25%;
   }
-  /* line 410, main.sass */
+  /* line 411, main.sass */
   .mainText p {
     font-size: 2em;
   }
-  /* line 412, main.sass */
+  /* line 413, main.sass */
   .mainText h1 {
     font-size: 3.5em;
     padding-top: 50px;
   }
 
-  /* line 415, main.sass */
+  /* line 416, main.sass */
   .main {
     background-size: 700px auto, 100% 100%;
     background-position: bottom -100px left -35px, center center;
@@ -570,66 +573,66 @@ img.food.is-showing {
     min-height: 85vh;
   }
 
-  /* line 425, main.sass */
+  /* line 426, main.sass */
   .sec .textSec h2 {
     margin-left: 20%;
     margin-right: 20%;
     font-size: 3em;
   }
-  /* line 429, main.sass */
+  /* line 430, main.sass */
   .sec .textSec p {
     margin-left: 25%;
     margin-right: 25%;
     font-size: 1.5em;
     margin-top: 50px;
   }
-  /* line 434, main.sass */
+  /* line 435, main.sass */
   .sec .imgSec {
     margin-top: 5%;
     margin-left: 35%;
     margin-right: 35%;
   }
-  /* line 438, main.sass */
+  /* line 439, main.sass */
   .sec .imgSec #ribbon {
     transform: translate(0px, -80px);
     transition: transform 0.5s ease-in;
   }
 
-  /* line 441, main.sass */
+  /* line 442, main.sass */
   .spacedTop {
     padding-top: 15%;
   }
 
-  /* line 443, main.sass */
+  /* line 444, main.sass */
   .spacedBottom {
     padding-bottom: 5%;
   }
 
-  /* line 446, main.sass */
+  /* line 447, main.sass */
   #secTeam #faces {
     margin-left: 0%;
     margin-right: 0%;
   }
 }
 @media all and (orientation: landscape) and (min-width: 768px) {
-  /* line 457, main.sass */
+  /* line 458, main.sass */
   .sec .textSec p {
     margin-left: 20%;
     margin-right: 20%;
   }
 
-  /* line 461, main.sass */
+  /* line 462, main.sass */
   #secTeam #faces {
     margin-right: 5%;
   }
 }
 @media screen and (min-width: 1280px) {
-  /* line 468, main.sass */
+  /* line 469, main.sass */
   .navbar-default .navbar-nav > li > a {
     font-weight: bold;
   }
 
-  /* line 471, main.sass */
+  /* line 472, main.sass */
   .navbar-default .navbar-nav > li > a {
     font-size: 1.5em;
   }
