@@ -1,3 +1,22 @@
+var images = new Array()
+function preload() {
+	for (i = 0; i < preload.arguments.length; i++) {
+		images[i] = new Image()
+		images[i].src = preload.arguments[i]
+	}
+}
+preload(
+	'img/rue.jpg',
+	'img/nil.jpg',
+	'img/atun.jpg',
+	'img/ari.jpg',
+	'img/david.jpg',
+	'img/maria.jpg',
+ 	'img/wil.jpg',
+	'img/nuria.jpg',
+	'img/laura.jpg',
+	'img/carmen.jpg'
+)
 // $(".navbar-nav a").mouseover(function(){
 // 	$('.navbar-nav>.active>a').css({
 // 		'box-shadow' : 'none'
@@ -46,3 +65,10 @@ $(window).scroll(function(){
 		});
 	};
 })
+
+smoothScroll.init({
+	speed: 1000,
+	easing: 'easeInOutQuad',
+	updateURL: false,
+	offset: 100,
+});

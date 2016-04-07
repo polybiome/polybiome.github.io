@@ -14,7 +14,7 @@ html.no-js(lang='')
     title
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    link(rel='icon', href='pbIcon.png', sizes="32x32")
     link(href='https://fonts.googleapis.com/css?family=Amaranth:400,700' rel='stylesheet' type='text/css')
     link(rel='stylesheet', href='css/bootstrap.min.css')
     link(rel='stylesheet', href='css/bootstrap-theme.min.css')
@@ -44,26 +44,45 @@ html.no-js(lang='')
           .navbar-collapse#bs-example-navbar-collapse-1.collapse.navbar-fixed-top
             ul.nav.navbar-nav.navbar-right
               li.active
-                a(href='#').first
-                  | Home 
+                a.first.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                  | Site Map 
                   span.sr-only (current)
+                  span.caret
+                ul.dropdown-menu
+                  li
+                    a(data-scroll,href=".main") Home
+                  li
+                    a(data-scroll,href="#sec1") Meat and colorectal cancer.
+                  li
+                    a(data-scroll,href="#sec2") Polyamines. What are they?
+                  li
+                    a(data-scroll,href="#sec3") The Polybiome project
+                  li
+                    a(data-scroll,href="#sec4") Polybiome and igem.
+                  li
+                    a(data-scroll,href="#secTeam") The team!
+                  li
+                    a(data-scroll,href="#secSponsors") Our sponsors and collaborations
               li
                 a(href='#') Support us!
               li
                 a(href='temp.html') Igem Page
 
-              li.dropdown
-                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
-                  | Get in contact! 
-                  span.caret
-                ul.dropdown-menu
-                  li
-                    a(href='https://polybiome.wordpress.com') Our blog
-                  //- li
-                  //-   a(href='#') The team
-                  li.divider(role='separator')
-                  li
-                    a(href='#') eMail
+              li 
+                a(href='https://polybiome.wordpress.com') Our blog
+
+              //- li.dropdown
+              //-   a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+              //-     | Get in contact! 
+              //-     span.caret
+              //-   ul.dropdown-menu
+              //-     li
+              //-       a(href='https://polybiome.wordpress.com') Our blog
+              //-     //- li
+              //-     //-   a(href='#') The team
+              //-     li.divider(role='separator')
+              //-     li
+              //-       a(href='#') eMail
       .mainText
         p Meet PolyBiome, an initiative to reduce the cancerigenous potential of meat using safe microorganisms in our body.
         h1 MEET THE 
@@ -101,7 +120,7 @@ html.no-js(lang='')
       .imgSec
         img(src='img/mol1.png').img-responsive#mol1
         img(src='img/mol2.png').img-responsive#mol2
-       .textSec
+       .textSec.spacedBottom  
         p Once absorbed in the lower intestine, polyamines enter the blod floow and spread across the body, where efficient targeting and control is difficult. Therefore, it is nescesary an approach that eliminates them before they are absorbed. 
       .imgSec
         img(src='img/vessel.gif').img-responsive#veins
@@ -122,8 +141,8 @@ html.no-js(lang='')
           //| Lorem ipsum Amet consequat consequat culpa laborum.
         p iGEM is an international synthetic biology competition hold in Boston. We will be representing university Pompeu Fabra and exposing the Polybiome project. 
       .imgSec.spacedBottom
-        img(src='img/logoIgem.png').img-responsive#logoIgemOfficial
-        img(src='img/logoIgem.gif').img-responsive#logoIgem
+        img(src='img/logoIgem.png').img-responsive#logoIgem
+        img(src='img/logoIgem.gif').img-responsive#logoDracBlue
     .spacedTop
     hr
     #secTeam.sec
@@ -188,7 +207,6 @@ html.no-js(lang='')
       .imgSec.sponsors.spacedBottom
         img(src='img/upfLogo.png').img-responsive#upfLogo
         img(src='img/crgLogo.png').img-responsive#crgLogo
-
     .spacedBottom
     .footer
       .textFooter
