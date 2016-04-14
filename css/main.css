@@ -546,7 +546,7 @@ img.food.is-showing {
 
   /* line 405, main.sass */
   .dropdown-menu {
-    font-size: 1em;
+    font-size: 0.7em;
   }
 
   /* line 407, main.sass */
@@ -635,5 +635,11 @@ img.food.is-showing {
   /* line 472, main.sass */
   .navbar-default .navbar-nav > li > a {
     font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1600px) {
+  /* line 478, main.sass */
+  .dropdown-menu {
+    font-size: 1em;
   }
 }
