@@ -1,0 +1,56 @@
+{
+    "token": {
+        "Toggle navigation":"Canviar Navegacion",
+        "Site Map": "Mapa del sitio",
+		"Home":"Inicio",
+		"Meat and colorectal cancer.":"Carne i cáncer colorrectal",
+		"Polyamines. What are they?":"Poliaminas. ¿Qué son?",
+		"The Polybiome project":"El proyecto Polybiome",
+		"Polybiome and igem.":"Polybiome i iGEM",
+		"The team!":"Nuestro equipo!",
+		"Our sponsors and collaborations":"Nuestros sponsors i colaboradores",
+		"Support us!":"Fináncianos! / Apóyanos!",
+		"iGEM Page":"Web de iGEM",
+		"Our blog":"Nuestro Blog",
+
+		"introText":"Descubre Polybiome, un nuevo proyecto con el objetivo de reducir la carcinogenicidad asociada al consumo de carne mediante el uso de microorganismos inocuos dentro de nuestro organismo.",
+		"MEET THE":"DESCUBRE EL PROYECTO",
+		"PROJECT":"\u0000",
+		"POLYBIOME":"POLYBIOME",
+
+		"One":"Uno",
+		"in every 33":"de cada 33",
+		"cancers":"cánceres",
+		"is ascribed to processed or red meat.":"está asociado al consumo de carne roja o procesada",
+		"In an unprecedented":"En un",
+		"statement":"comunicado ",
+		"statementText":"al octubre del 2015 la Organización Mundial de la Salud, anunció que, según unos estudios reciente de la Agencia Internacional para la Investigación del CÁNCER (IARC), el consumo de carne roja y procesada incrementa el riesgo de padecer cáncer colorrectal. ",
+		"statementText2":"Los estudios concluyeron que el 21% de cánceres colorrectales, que representan un 3% del total de cánceres en todo el mundo, están asociados al consumo de carne roja y procesada. La carne procesada y roja pertenecen actualmente al Grupo I y II de la clasificación de carcinogenicidad respectivamente.",
+		
+		"Polyamines":"Las poliaminas",
+		"are primarily responsible for the potential carcinogenicity of meat.":"son una de las principales moléculas responsables de la carcinogenicidad de la carne.",
+		"polyaminesText":"Las poliaminas son unas moléculas involucradas en muchos procesos dentro de nuestro organismo, como la proliferación de las células, y por lo tanto, en cantidades reducidas son esenciales para la vida. Sin embargo, un aumento en su concentración puede provocar una proliferación excesiva de las células de nuestro cuerpo y en consecuencia, aumentar el riesgo de padecer cáncer. ",
+		"polyaminesText2":"Las poliaminas son absorbidas en el intestino grueso, pasan a la sangre y se distribuyen por todo nuestro organismo. Después de su distribución, es muy difícil controlar y regular su concentración. Por lo tanto, es necesario reducir su cantidad en el intestino, previamente a su absorción. ",
+		
+		"Polybiome aims to effectively reduce":"El proyecto Polybiome tiene como objetivo reducir de forma eficiente ",
+		"polyamine levels":"la cantidad de poliaminas en nuestro organismo.",
+		"by targeting them in the absorbing phase.":" Para ello, es necesario el control de su concentración en la fase de absorción.",
+		"ideaText":"Polybiome contiene microorganismos que se encargan de degradar en el intestino, de forma controlada, las poliaminas provenientes de la dieta. Así, permiten reducir el riesgo de padecer cáncer.",
+		
+		"Polybiome is going to":"El proyecto Polybiome se presenta al",
+		"igemText":"iGEM es un concurso internacional de biología sintética que se celebra anualmente a Boston. Polybiome es el primer equipo de la universidad Pompeu Fabra de Barcelona que participará en este concurso.",
+		
+		"The":"El",
+		"Team":"equipo",
+		"teamText":"Somos un equipo multidisciplinario y multicultural, asociados a la universidad Pompeu Fabra de Barcelona.",
+		
+		"Project":"\u0000",
+		"Sponsors":"Colaboradores i Sponsors",
+		"and":"del proyecto",
+		"Collaborators":"\u0000"
+
+    },
+    "regex": [
+
+    ]
+}

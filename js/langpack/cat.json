@@ -1,0 +1,56 @@
+{
+    "token": {
+        "Toggle navigation":"Canviar Navegació",
+        "Site Map": "Mapa del lloc",
+		"Home":"Inici",
+		"Meat and colorectal cancer.":"Carn i càncer colorectal.",
+		"Polyamines. What are they?":"Poliamines. Què són?",
+		"The Polybiome project":"El projecte Polybiome",
+		"Polybiome and igem.":"Polybiome i iGEM",
+		"The team!":"El nostre equip!",
+		"Our sponsors and collaborations":"Els nostres sponsors i col·laboradors",
+		"Support us!":"Finança’ns! / Dóna’ns suport!",
+		"iGEM Page":"Web d’iGEM",
+		"Our blog":"El nostre Blog",
+
+		"introText":"Descobreix PolyBiome, un nou projecte adreçat a reduir la carcinogenicitat associada al consum de carn utilitzant microorganismes innocus dins el nostre organisme.",
+		"MEET THE":"CONEIX EL PROJECTE",
+		"PROJECT":"\u0000",
+		"POLYBIOME":"POLYBIOME",
+
+		"One":"Un",
+		"in every 33":"en cada 33",
+		"cancers":"cancers",
+		"is ascribed to processed or red meat.":"està associat al consum de carn vermella o processada",
+		"In an unprecedented":"En un",
+		"statement":"comunicat ",
+		"statementText":"a l’octubre del 2015 l’ Organització Mundial de la Salut,  va anunciar que, segons uns estudis recents  de l’Agència Internacional de Recerca del Càncer (IARC), la ingesta de carn vermella i processada augmenta el risc de patir càncer colorectal. ",
+		"statementText2":"Els estudis van concloure que el  21% dels càncers colorectals, que representen un 3% del total de càncers arreu del món,  estan associats al consum de carn vermella i processada. La carn processada i vermella es troben actualment en el Grup I i II de la classificació de carcinogenicitat respectivament.",
+		
+		"Polyamines":"Les poliamines",
+		"are primarily responsible for the potential carcinogenicity of meat.":"són una de les principals molècules responsables de la carcinogenicitat de la carn.",
+		"polyaminesText":"Les poliamines són unes molècules involucrades en molts processos dins el nostre organisme, com ara la proliferació de les cèl·lules i per tant,  en petites quantitats són essencials per nosaltres. Ara bé, un augment en la seva concentració pot provocar una proliferació excessiva de les cèl·lules del nostre cos i conseqüentment, augmentar el risc de patir càncer.",
+		"polyaminesText2":"Les poliamines s'absorbeixen per l’intestí gruixut, passen a la sang i es distribueixen per tot l’organisme. Una vegada distribuïdes, és molt difícil controlar-ne i regular-ne la seva concentració. Per tant, és necessari reduir-ne la seva quantitat a l’intestí, prèviament a la seva absorció.",
+		
+		"Polybiome aims to effectively reduce":"El projecte Polybiome té com a objectiu reduir eficientment",
+		"polyamine levels":"la quantitat de poliamines",
+		"by targeting them in the absorbing phase.":", tot controlant-ne la seva concentració en la fase d’absorció.",
+		"ideaText":"Polybiome conté microorganismes que un cop a l’intestí,  s’encarreguen de degradar, de manera controlada, les poliamines provinents de la dieta. D’aquesta manera, permeten reduir el risc de patir càncer.",
+		
+		"Polybiome is going to":"El projecte Polybiome es presenta a l’",
+		"igemText":"iGEM és un concurs internacional de biologia sintètica que es celebra anualment a Boston. Polybiome és el primer equip de la universitat Pompeu Fabra de Barcelona que participarà en aquest concurs.",
+		
+		"The":"L'",
+		"Team":"equip",
+		"teamText":"Som un equip multidisciplinari i multicultural associat a la universitat Pompeu Fabra de Barcelona.",
+		
+		"Project":"\u0000",
+		"Sponsors":"Colaboradors i Sponsors",
+		"and":"del projecte",
+		"Collaborators":"\u0000"
+
+    },
+    "regex": [
+
+    ]
+}

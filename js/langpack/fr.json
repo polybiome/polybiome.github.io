@@ -1,0 +1,56 @@
+{
+    "token": {
+        "Toggle navigation":"Toggle navigation",
+        "Site Map": "Carte du site",
+		"Home":"Page principale",
+		"Meat and colorectal cancer.":"Viande et cancer colorectal.",
+		"Polyamines. What are they?":"Se sont quoi les polyamines ? ",
+		"The Polybiome project":"Le projet polybiome",
+		"Polybiome and igem.":"Polybiome et iGEM",
+		"The team!":"L’équipe",
+		"Our sponsors and collaborations":"Nos Sponsors et Collaborateurs",
+		"Support us!":"Aide-nous !",
+		"iGEM Page":"Page d’iGEM",
+		"Our blog":"Nos bloc",
+
+		"introText":"Nous présentons le projet Polybiome, une initiative pour réduire le potentiel  cancérigène de la viande utilisant des microorganismes naturels du corps. ",
+		"MEET THE":"BIENVENUS AU PROJET",
+		"PROJECT":"\u0000",
+		"POLYBIOME":"POLYBIOME",
+
+		"One":"Un",
+		"in every 33":"dès 33",
+		"cancers":"cancers",
+		"is ascribed to processed or red meat.":"est attribué aux viandes rouges ou transformées.",
+		"In an unprecedented":"L’Organisation Mondiale de la Santé présenta le passé Octobre 2015 un ",
+		"statement":"document ",
+		"statementText":"sans précédents manifestant sa préoccupation par les études récents de la « International Agency for Research on Cancer » (IARC) les quels liaient le consume de viande rouge et le cancer colorectal. ",
+		"statementText2":"Ces études concluaient que le 21% des cancers intestinaux étaient provoqués par la viande rouge et transformée, qui représente le 3% de tous les cancers mondiaux. Maintenant, dans la classification des Groupes Cancérigènes, la viande transformée occupe le premier lieu, et la rouge le deuxième. ",
+		
+		"Polyamines":"Les poliamines",
+		"are primarily responsible for the potential carcinogenicity of meat.":"sont responsables principales du potentiel cancérigène de la viande.",
+		"polyaminesText":"Ces molécules participent dans les mécanismes de prolifération cellulaire et sont indispensables pour la vie en concentrations réduites. Cependant, si son équilibre est altéré en conséquence d’un consume constant de viande, elles peuvent accélérer le procès de reproduction cellulaire est donc augmenter le risque de devenir dangereuses.",
+		"polyaminesText2":"Quand elles sont absorbées  par l’intestin, les polyamines entrent dans le flux sanguin et se repartent par tout le corps, le quel fait de son control un tâche difficile. Par conséquent, il est nécessaire de trouver un système qui peut les éliminer avant que cela passe. ",
+		
+		"Polybiome aims to effectively reduce":"Polybiome vise de réduire efficacement",
+		"polyamine levels":"les niveaux de polyamines",
+		"by targeting them in the absorbing phase.":"pendant le procès d’absorption.",
+		"ideaText":"Polybiome est un probiotique composé de bactéries qui peuvent éliminer les polyamines  dans le tractus intestinal. Cela diminue le volume excessif de polyamines absorbées et minimise le risque de développer  un cancer.",
+		
+		"Polybiome is going to":"Polybiome ira à la compétition",
+		"igemText":"iGEM est un concours international de biologie synthétique qui se fait à Boston. Nous représenterons notre université Pompeu Fabra  et exposerons notre projet à tout le monde.",
+		
+		"The":"L'",
+		"Team":"équipe",
+		"teamText":"Nous sommes une équipe multidisciplinaire et multiculturelle associé à l’Université Pompeu Fabra, à Barcelone.",
+		
+		"Project":"\u0000",
+		"Sponsors":"Collaborateurs et Sponsors",
+		"and":"du Projet:",
+		"Collaborators":"\u0000"
+
+    },
+    "regex": [
+
+    ]
+}

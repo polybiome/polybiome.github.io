@@ -1,0 +1,30 @@
+/*{
+    // Define token (exact phrase) replacements here
+    "token": {
+        "Toggle navigation":"ค้นหา",
+        "Site Map":"ค้นหา",
+        "Support us!":"หหหหห",
+        //"Location":"สถานที่ตั้ง",
+        //"Budget":"งบประมาณ",
+        //"An option phrase to translate":"งบประมาณงบประมาณสถานที่ตั้ง",
+    },
+    // Define regular expression replacements here
+/*    "regex": [
+        ["My regex", "i", "someReplacement"]
+    ]*/
+//}
+
+{
+    // Define token (exact phrase) replacements here
+    "token": {
+        "Property Search":"ค้นหา",
+        "Location":"สถานที่ตั้ง",
+        "Budget":"งบประมาณ",
+        "Support us!":"หหหหห",
+        "An option phrase to translate":"งบประมาณงบประมาณสถานที่ตั้ง",
+    },
+    // Define regular expression replacements here
+    "regex": [
+        ["My regex", "i", "someReplacement"]
+    ]
+}
