@@ -1,4 +1,5 @@
 var images = new Array()
+var toggleSide = 0;
 function preload() {
 	for (i = 0; i < preload.arguments.length; i++) {
 		images[i] = new Image()
@@ -73,6 +74,34 @@ $(function() {
     });
 });
 })
+
+$('.widgetSec .closeThis').on('click', function(){ 
+        //$('.widgetSec').css('display','none');
+        if(toggleSide == 0){
+	        $('.widgetSec').css({
+				'transform' : 'translate(-100%, 0px)'
+			});
+			$('.closeThis').css({
+				'transform' : 'translate(13px, 0px)',
+				'background' : 'none',
+				'background-color': '#0078AA'
+			});
+			$('.closeThis p').text('>');
+			toggleSide = 1;
+		}
+		else{
+			 $('.widgetSec').css({
+				'transform' : 'translate(0px, 0px)'
+			});
+			$('.closeThis').css({
+				'transform' : 'translate(0px, 0px)',
+				'background': 'linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 0.8px), rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%), linear-gradient(to top right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 0.8px), rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%)',
+				'background-color': '#0078AA'
+			});
+			$('.closeThis p').text('');
+			toggleSide = 0;
+		}
+});
 
 smoothScroll.init({
 	speed: 1000,

@@ -116,6 +116,10 @@ html.no-js(lang='')
         h1(lang='en') MEET THE 
           span(lang='en') POLYBIOME 
           | PROJECT
+    .widgetSec
+      .closeThis(title='Hide/Show this')
+        p
+      iframe(frameborder="0" height="480px" src="https://en.goteo.org/widget/project/microorganismos-contra-el-cancer?lang=en" width="250px" scrolling="no")
     #sec1.sec
       .textSec
         h2(lang='en')
@@ -232,8 +236,12 @@ html.no-js(lang='')
           span(lang="en")  Collaborators
         //| Lorem ipsum Amet consequat consequat culpa laborum.
       .imgSec.sponsors.spacedBottom
-        img(src='img/upfLogo.png').img-responsive#upfLogo
-        img(src='img/crgLogo.png').img-responsive#crgLogo
+        a(href='http://www.upf.edu/',target='_blank')
+          img(src='img/upfLogo.png').img-responsive#upfLogo
+        a(href='http://http://www.crg.eu/',target='_blank')
+          img(src='img/crgLogo.png').img-responsive#crgLogo
+        a(href='http://www.danagen.es/',target='_blank')
+           img(src='img/DanaGenLogo.jpg').img-responsive#DanaGenLogo
     .spacedBottom
     .footer
       .textFooter
