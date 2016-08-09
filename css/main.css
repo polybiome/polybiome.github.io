@@ -248,32 +248,34 @@ a:visited, a:focus {
 }
 /* line 194, main.sass */
 .sec .imgSec #DanaGenLogo {
-  float: right;
-  position: absolute;
+  margin-top: 40px;
   max-width: 50%;
-  margin-top: -30px;
-  display: inline-block;
 }
-/* line 202, main.sass */
+/* line 201, main.sass */
+.sec .imgSec #decorpsLogo {
+  float: right;
+  max-width: 40%;
+}
+/* line 206, main.sass */
 .sec .noOverflow {
   overflow: hidden;
 }
-/* line 204, main.sass */
+/* line 208, main.sass */
 .sec #omsMeat {
   position: absolute;
 }
 
-/* line 207, main.sass */
+/* line 211, main.sass */
 .spacedTop {
   padding-top: 50%;
 }
 
-/* line 209, main.sass */
+/* line 213, main.sass */
 .spacedBottom {
   padding-bottom: 10%;
 }
 
-/* line 212, main.sass */
+/* line 216, main.sass */
 img.food {
   position: inline-block;
   max-width: 50%;
@@ -282,31 +284,31 @@ img.food {
   transform: translateX(30px);
   transition: all 0.4s ease-in-out;
 }
-/* line 219, main.sass */
+/* line 223, main.sass */
 img.food.is-showing {
   opacity: 1;
   transform: translateX(0px);
 }
 
-/* line 223, main.sass */
+/* line 227, main.sass */
 #secTeam #faces {
   margin-left: 5%;
   margin-right: 5%;
 }
-/* line 226, main.sass */
+/* line 230, main.sass */
 #secTeam #faces .face {
   margin-bottom: 20px;
   margin-right: 10px;
   padding: 0px;
   overflow: hidden;
 }
-/* line 232, main.sass */
+/* line 236, main.sass */
 #secTeam #faces .face img {
   max-width: 100%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
-/* line 236, main.sass */
+/* line 240, main.sass */
 #secTeam #faces .face figcaption {
   position: absolute;
   top: 80%;
@@ -316,7 +318,7 @@ img.food.is-showing {
   font-size: 6px;
   pointer-events: none;
 }
-/* line 244, main.sass */
+/* line 248, main.sass */
 #secTeam #faces .face figcaption .box {
   background-color: #F7AC1E;
   width: 6px;
@@ -326,14 +328,14 @@ img.food.is-showing {
   margin: -5px 0px 0px -10px;
 }
 
-/* line 253, main.sass */
+/* line 257, main.sass */
 .sponsors img {
   max-width: 50%;
   display: inline-block;
   margin-right: 20px;
 }
 
-/* line 259, main.sass */
+/* line 263, main.sass */
 .footer {
   background: #eb01a5, linear-gradient(to right, #0078aa, #009eaa);
   background-image: url("../img/backIcoR.png");
@@ -347,11 +349,11 @@ img.food.is-showing {
   background-repeat: no-repeat;
   min-height: 50px;
 }
-/* line 272, main.sass */
+/* line 276, main.sass */
 .footer .textFooter {
   position: relative;
 }
-/* line 274, main.sass */
+/* line 278, main.sass */
 .footer .textFooter p {
   color: white;
   font-size: 1em;
@@ -362,18 +364,18 @@ img.food.is-showing {
 }
 
 @media all and (orientation: landscape) {
-  /* line 286, main.sass */
+  /* line 290, main.sass */
   .main {
     min-height: 0px;
   }
 
-  /* line 288, main.sass */
+  /* line 292, main.sass */
   .mainText {
     min-height: 150px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 294, main.sass */
+  /* line 298, main.sass */
   .navbar-default {
     background-color: transparent;
     height: 100px;
@@ -383,45 +385,45 @@ img.food.is-showing {
     margin-right: 20px;
     box-shadow: none;
   }
-  /* line 302, main.sass */
+  /* line 306, main.sass */
   .navbar-default .navbar-nav > li > a {
     color: white;
     font-size: 1em;
   }
-  /* line 305, main.sass */
+  /* line 309, main.sass */
   .navbar-default .navbar-nav > li > a.first {
     color: white;
     border-top-left-radius: 20px;
   }
-  /* line 308, main.sass */
+  /* line 312, main.sass */
   .navbar-default .navbar-nav > li > a:hover {
     box-shadow: none;
     background-color: white;
     color: #777;
   }
-  /* line 312, main.sass */
+  /* line 316, main.sass */
   .navbar-default .navbar-nav > li > a:active {
     background-color: white;
   }
-  /* line 314, main.sass */
+  /* line 318, main.sass */
   .navbar-default .navbar-nav > .active > a {
     background-image: none;
     background-color: rgba(255, 255, 255, 0);
     box-shadow: none;
   }
-  /* line 320, main.sass */
+  /* line 324, main.sass */
   .navbar-default .navbar-nav > .active > a:hover {
     background-color: white;
     color: #777;
   }
-  /* line 323, main.sass */
+  /* line 327, main.sass */
   .navbar-default .navbar-collapse {
     margin-top: 0px;
     padding-top: 50px;
     padding-right: 50px;
     background-color: transparent;
   }
-  /* line 329, main.sass */
+  /* line 333, main.sass */
   .navbar-default .navbar-brand {
     margin-top: -20px;
     left: auto;
@@ -429,169 +431,169 @@ img.food.is-showing {
     margin-left: 0px;
     padding-left: 5%;
   }
-  /* line 335, main.sass */
+  /* line 339, main.sass */
   .navbar-default .navbar-brand img {
     height: 100%;
     width: auto;
     padding-left: 50px;
   }
 
-  /* line 339, main.sass */
+  /* line 343, main.sass */
   .dropdown-menu {
     width: 100%;
     font-size: 0.5em;
   }
-  /* line 342, main.sass */
+  /* line 346, main.sass */
   .dropdown-menu .divider {
     width: 100%;
   }
-  /* line 344, main.sass */
+  /* line 348, main.sass */
   .dropdown-menu .flags {
     padding-bottom: 10px;
   }
 
-  /* line 346, main.sass */
+  /* line 350, main.sass */
   .nav {
     width: 60%;
   }
-  /* line 348, main.sass */
+  /* line 352, main.sass */
   .nav li {
     width: 20%;
     text-align: center;
   }
 
-  /* line 351, main.sass */
+  /* line 355, main.sass */
   .main {
     background-size: 400px auto, 100% 100%;
     background-position: bottom -80px left -35px, center center;
     min-height: 75vh;
   }
 
-  /* line 355, main.sass */
+  /* line 359, main.sass */
   .mainText {
     margin-right: 15%;
     margin-left: 15%;
     margin-top: 10%;
   }
-  /* line 359, main.sass */
+  /* line 363, main.sass */
   .mainText p {
     font-size: 1.3em;
   }
-  /* line 361, main.sass */
+  /* line 365, main.sass */
   .mainText h1 {
     font-size: 2em;
     padding-top: 20px;
   }
 
-  /* line 366, main.sass */
+  /* line 370, main.sass */
   .sec .textSec h2 {
     margin-left: 10%;
     margin-right: 10%;
   }
-  /* line 369, main.sass */
+  /* line 373, main.sass */
   .sec .textSec p {
     margin-left: 15%;
     margin-right: 15%;
   }
-  /* line 373, main.sass */
+  /* line 377, main.sass */
   .sec .imgSec {
     margin-left: 30%;
     margin-right: 25%;
   }
-  /* line 376, main.sass */
+  /* line 380, main.sass */
   .sec .imgSec #ribbon {
     transform: translate(0px, -30px);
     transition: transform 0.5s ease-in;
   }
-  /* line 379, main.sass */
+  /* line 383, main.sass */
   .sec .imgSec #mol1 {
     transform: translate(-90px, 0px);
     transition: transform 1s ease-in-out;
   }
-  /* line 382, main.sass */
+  /* line 386, main.sass */
   .sec .imgSec #mol2 {
     transform: translate(90px, 0px);
     transition: transform 1s ease-in-out;
   }
-  /* line 385, main.sass */
+  /* line 389, main.sass */
   .sec .imgSec #logoIgem {
     transform: translate(-50px, 0px);
     transition: transform 0.5s ease-in;
   }
-  /* line 388, main.sass */
+  /* line 392, main.sass */
   .sec .imgSec #logoDracBlue {
     transform: translate(50px, 0px);
     transition: transform 0.5s ease-in;
   }
 
-  /* line 391, main.sass */
+  /* line 395, main.sass */
   .spacedTop {
     padding-top: 30%;
   }
 
-  /* line 393, main.sass */
+  /* line 397, main.sass */
   .spacedBottom {
     padding-bottom: 10%;
   }
 
-  /* line 399, main.sass */
+  /* line 403, main.sass */
   #secTeam #faces .face img {
     opacity: 0.9;
     transition: opacity 0.35s, transform 0.35s;
   }
-  /* line 404, main.sass */
+  /* line 408, main.sass */
   #secTeam #faces .face img:hover {
     opacity: 0.8;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
   }
-  /* line 410, main.sass */
+  /* line 414, main.sass */
   #secTeam #faces .face figcaption {
     right: -100%;
     font-size: 11px;
     transition: all 0.3s ease-in-out;
   }
-  /* line 414, main.sass */
+  /* line 418, main.sass */
   #secTeam #faces .face figcaption .box {
     width: 10px;
     height: 16px;
     margin: -7px 0px 0px -12px;
   }
-  /* line 419, main.sass */
+  /* line 423, main.sass */
   #secTeam #faces .face:hover figcaption {
     right: 0%;
   }
 
-  /* line 421, main.sass */
+  /* line 425, main.sass */
   .footer {
     min-height: 200px;
   }
-  /* line 423, main.sass */
+  /* line 427, main.sass */
   .footer .textFooter {
     position: relative;
   }
-  /* line 425, main.sass */
+  /* line 429, main.sass */
   .footer .textFooter p {
     font-size: 2em;
     padding-top: 50px;
   }
 }
 @media all and (orientation: portrait) and (min-width: 768px) {
-  /* line 432, main.sass */
+  /* line 436, main.sass */
   .main {
     min-height: 50vh;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 439, main.sass */
+  /* line 443, main.sass */
   .navbar-default {
     margin-right: 70px;
   }
-  /* line 441, main.sass */
+  /* line 445, main.sass */
   .navbar-default .navbar-nav > li > a {
     font-size: 1.2em;
   }
-  /* line 443, main.sass */
+  /* line 447, main.sass */
   .navbar-default .navbar-brand {
     margin-top: -20px;
     left: auto;
@@ -599,35 +601,35 @@ img.food.is-showing {
     margin-left: 0px;
     padding-left: 5%;
   }
-  /* line 449, main.sass */
+  /* line 453, main.sass */
   .navbar-default .navbar-brand img {
     height: 175%;
     width: auto;
     padding-left: 50px;
   }
 
-  /* line 453, main.sass */
+  /* line 457, main.sass */
   .dropdown-menu {
     font-size: 0.7em;
   }
 
-  /* line 455, main.sass */
+  /* line 459, main.sass */
   .mainText {
     margin-top: 12%;
     margin-right: 25%;
     margin-left: 25%;
   }
-  /* line 459, main.sass */
+  /* line 463, main.sass */
   .mainText p {
     font-size: 2em;
   }
-  /* line 461, main.sass */
+  /* line 465, main.sass */
   .mainText h1 {
     font-size: 3.5em;
     padding-top: 50px;
   }
 
-  /* line 464, main.sass */
+  /* line 468, main.sass */
   .main {
     background-size: 700px auto, 100% 100%;
     background-position: bottom -100px left -35px, center center;
@@ -635,72 +637,72 @@ img.food.is-showing {
     min-height: 85vh;
   }
 
-  /* line 474, main.sass */
+  /* line 478, main.sass */
   .sec .textSec h2 {
     margin-left: 20%;
     margin-right: 20%;
     font-size: 3em;
   }
-  /* line 478, main.sass */
+  /* line 482, main.sass */
   .sec .textSec p {
     margin-left: 25%;
     margin-right: 25%;
     font-size: 1.5em;
     margin-top: 50px;
   }
-  /* line 483, main.sass */
+  /* line 487, main.sass */
   .sec .imgSec {
     margin-top: 5%;
     margin-left: 35%;
     margin-right: 35%;
   }
-  /* line 487, main.sass */
+  /* line 491, main.sass */
   .sec .imgSec #ribbon {
     transform: translate(0px, -80px);
     transition: transform 0.5s ease-in;
   }
 
-  /* line 490, main.sass */
+  /* line 494, main.sass */
   .spacedTop {
     padding-top: 15%;
   }
 
-  /* line 492, main.sass */
+  /* line 496, main.sass */
   .spacedBottom {
     padding-bottom: 5%;
   }
 
-  /* line 495, main.sass */
+  /* line 499, main.sass */
   #secTeam #faces {
     margin-left: 0%;
     margin-right: 0%;
   }
 }
 @media all and (orientation: landscape) and (min-width: 768px) {
-  /* line 506, main.sass */
+  /* line 510, main.sass */
   .sec .textSec p {
     margin-left: 20%;
     margin-right: 20%;
   }
 
-  /* line 510, main.sass */
+  /* line 514, main.sass */
   #secTeam #faces {
     margin-right: 5%;
   }
 }
 @media screen and (min-width: 1280px) {
-  /* line 517, main.sass */
+  /* line 521, main.sass */
   .navbar-default .navbar-nav > li > a {
     font-weight: bold;
   }
 
-  /* line 520, main.sass */
+  /* line 524, main.sass */
   .navbar-default .navbar-nav > li > a {
     font-size: 1.5em;
   }
 }
 @media screen and (min-width: 1600px) {
-  /* line 526, main.sass */
+  /* line 530, main.sass */
   .dropdown-menu {
     font-size: 1em;
   }
